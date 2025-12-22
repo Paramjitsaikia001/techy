@@ -1,1 +1,1 @@
-# techy
+## techtalk - A platform for techies
