@@ -731,6 +731,43 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 956.5006246386276,
+			"y": 3244.661356263154,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:b4d1yKCYDod_vl8jwF5OX",
+			"type": "geo",
+			"props": {
+				"w": 334.7311238406048,
+				"h": 770.3790757164602,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "abJ0iKVV",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:b3Bm3HVwa-dnK2BZdRjLm",
 			"type": "arrow",
@@ -2914,9 +2951,9 @@
 			"typeName": "binding"
 		},
 		{
-			"x": 3107.201919310947,
-			"y": 605.1384648538501,
-			"z": 0.13095961318730928,
+			"x": -83.21475735463952,
+			"y": -3065.0510993821467,
+			"z": 0.6085224580042206,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -5132,7 +5169,9 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
+			"selectedShapeIds": [
+				"shape:b4d1yKCYDod_vl8jwF5OX"
+			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -12061,7 +12100,10 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:fill": "none"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -12093,9 +12135,9 @@
 			"isFocused": true,
 			"devicePixelRatio": 2,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": null,
+			"isHoveringCanvas": true,
 			"openMenus": [],
-			"isChangingStyle": false,
+			"isChangingStyle": true,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
