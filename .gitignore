@@ -1,25 +1,22 @@
 # Dependency directories
-node_modules/
+**/node_modules/
 
-# Environment variables (Crucial for security)
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Environment variables
+**/.env
+**/.env.local
 
-# Firebase Private Keys (Extremely sensitive)
-src/config/serviceAccountKey.json
+# Firebase Private Keys (Updated for your new structure)
+**/serviceAccountKey.json
+server/src/config/serviceAccountKey.json
 
 # Debug logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # System files
 .DS_Store
 Thumbs.db
 
 # Build directories
-dist/
-build/
+**/dist/
+**/build/
